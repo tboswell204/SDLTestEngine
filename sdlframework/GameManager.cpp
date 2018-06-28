@@ -4,12 +4,11 @@
 // Contains the game loop as well as the Update and Render functions   //
 // Used to make sure all functions are called in the correct order     //
 //                                                                     //
-// By: Ather Omar                                                      //
+// By: Tommy Boswell												   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)		   //
 //---------------------------------------------------------------------//
 #include "GameManager.h"
-//-----------------------------------------------------------
-// QuickSDL
-//-----------------------------------------------------------
+
 namespace QuickSDL {
 	//Initializing to NULL
 	GameManager* GameManager::sInstance = NULL;

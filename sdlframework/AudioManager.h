@@ -4,19 +4,15 @@
 // Plays WAV files                                              //
 // Can play one BGM at a time, and many sound effects at once   //
 //                                                              //
-// By: Ather Omar                                               //
+// By: Tommy Boswell											//
+// (Credit and big thanks to Ather Omar for his SDL tutorial)	//
 //--------------------------------------------------------------//
 #ifndef _AUDIOMANAGER_H
 #define _AUDIOMANAGER_H
-//-----------------------------------------------------------
 #include "AssetManager.h"
-//-----------------------------------------------------------
-// QuickSDL
-//-----------------------------------------------------------
+
 namespace QuickSDL {
-	//-------------------------------------------------------
-	// AudioManager
-	//-------------------------------------------------------
+
 	class AudioManager {
 
 	private:

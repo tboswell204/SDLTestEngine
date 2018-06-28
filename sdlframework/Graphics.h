@@ -5,24 +5,19 @@
 // and their release                                                   //
 // Also handles texture and text loading                               //
 //                                                                     //
-// By: Ather Omar                                                      //
+// By: Tommy Boswell												   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)		   //
 //---------------------------------------------------------------------//
 #ifndef _GRAPHICS_H
 #define _GRAPHICS_H
-//-------------------------------------------------------------------
 #include <string>
 #include <stdio.h>
-//-------------------------------------------------------------------
 #include <SDL.h>
 #include <SDL_image.h>
 #include <SDL_ttf.h>
-//-------------------------------------------------------------------
-// QuickSDL
-//-------------------------------------------------------------------
+
 namespace QuickSDL {
-	//---------------------------------------------------------------
-	// Graphics
-	//---------------------------------------------------------------
+
 	class Graphics {
 
 	public:

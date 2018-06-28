@@ -4,12 +4,11 @@
 // Used to load all assets used in the game,                           //
 // Caches all loaded assets so that nothing is loaded more than once   //
 //                                                                     //
-// By: Ather Omar                                                      //
+// By: Tommy Boswell												   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)		   //
 //---------------------------------------------------------------------//
 #include "AssetManager.h"
-//-----------------------------------------------------------------
-// QuickSDL
-//-----------------------------------------------------------------
+
 namespace QuickSDL {
 
 	//Initializing to NULL

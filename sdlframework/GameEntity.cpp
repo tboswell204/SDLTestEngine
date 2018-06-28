@@ -5,12 +5,11 @@
 // Sets up a system to parent GameEntity objects to one another                                                      //
 // making the child's position, rotation, and scale relative to the parent's instead of the world origin             //
 //                                                                                                                   //
-// By: Ather Omar                                                                                                    //
+// By: Tommy Boswell																								 //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)														 //
 //-------------------------------------------------------------------------------------------------------------------//
 #include "GameEntity.h"
-//-------------------------------------------------------------
-// QuickSDL
-//-------------------------------------------------------------
+
 namespace QuickSDL {
 
 	GameEntity::GameEntity(Vector2 pos) {

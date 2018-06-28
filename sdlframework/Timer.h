@@ -1,22 +1,18 @@
-//----------------------------------------------------//
-// Timer.h                                            //
-// Singleton                                          //
-// Used to keep track of the time between each reset  //
-// A reset is usually called after each frame         //
-//                                                    //
-// By: Ather Omar                                     //
-//----------------------------------------------------//
+//--------------------------------------------------------------//
+// Timer.h														//
+// Singleton													//
+// Used to keep track of the time between each reset			//
+// A reset is usually called after each frame					//
+//																//
+// By: Tommy Boswell											//
+// (Credit and big thanks to Ather Omar for his SDL tutorial)	//
+//--------------------------------------------------------------//
 #ifndef _TIMER_H
 #define _TIMER_H
-//---------------------------------------------------------------------
 #include <SDL.h>
-//---------------------------------------------------------------------
-// QuickSDL
-//---------------------------------------------------------------------
+
 namespace QuickSDL {
-	//-----------------------------------------------------------------
-	// Timer
-	//-----------------------------------------------------------------
+
 	class Timer {
 
 	private:

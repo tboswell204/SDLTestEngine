@@ -1,23 +1,19 @@
-//-----------------------------------------------------------------//
-// Texture.h                                                       //
-// The base class for all textures to be rendered on screen        //
-// Can load full textures, or clipped textures from a spritesheet  //
-// or convert a string into a texture to be rendered               //
-//                                                                 //
-// By: Ather Omar                                                  //
-//-----------------------------------------------------------------//
+//----------------------------------------------------------------------//
+// Texture.h															//
+// The base class for all textures to be rendered on screen				//
+// Can load full textures, or clipped textures from a spritesheet		//
+// or convert a string into a texture to be rendered					//
+//																		//
+// By: Tommy Boswell													//
+// (Credit and big thanks to Ather Omar for his SDL tutorial)			//
+//----------------------------------------------------------------------//
 #ifndef _TEXTURE_H
 #define _TEXTURE_H
-//---------------------------------------------------------------
 #include "GameEntity.h"
 #include "AssetManager.h"
-//---------------------------------------------------------------
-// QuickSDL
-//---------------------------------------------------------------
+
 namespace QuickSDL {
-	//-----------------------------------------------------------
-	// Texture : public GameEntity
-	//-----------------------------------------------------------
+
 	class Texture : public GameEntity {
 
 	protected:

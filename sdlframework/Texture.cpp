@@ -5,12 +5,11 @@
 // Can load full textures, or clipped textures from a spritesheet  //
 // or convert a string into a texture to be rendered               //
 //                                                                 //
-// By: Ather Omar                                                  //
+// By: Tommy Boswell											   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)	   //
 //-----------------------------------------------------------------//
 #include "Texture.h"
-//--------------------------------------------------------------
-// QuickSDL
-//--------------------------------------------------------------
+
 namespace QuickSDL {
 
 	Texture::Texture(std::string filename) {

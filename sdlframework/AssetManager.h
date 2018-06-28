@@ -4,23 +4,17 @@
 // Used to load all assets used in the game,                           //
 // Caches all loaded assets so that nothing is loaded more than once   //
 //                                                                     //
-// By: Ather Omar                                                      //
+// By: Tommy Boswell												   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)		   //
 //---------------------------------------------------------------------//
 #ifndef _ASSETMANAGER_H
 #define _ASSETMANAGER_H
-//------------------------------------------------------------------
 #include <map>
-//------------------------------------------------------------------
 #include <SDL_mixer.h>
-//------------------------------------------------------------------
 #include "Graphics.h"
-//------------------------------------------------------------------
-// QuickSDL
-//------------------------------------------------------------------
+
 namespace QuickSDL {
-	//--------------------------------------------------------------
-	// AssetManager
-	//--------------------------------------------------------------
+
 	class AssetManager {
 
 	private:

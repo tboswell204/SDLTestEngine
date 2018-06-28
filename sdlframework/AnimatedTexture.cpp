@@ -3,12 +3,11 @@
 // Extends the Texture class' functionality to handle animations   //
 // Uses the Texture class' spritesheet constructor                 //
 //                                                                 //
-// By: Ather Omar                                                  //
+// By: Tommy Boswell											   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)	   //
 //-----------------------------------------------------------------//
 #include "AnimatedTexture.h"
-//---------------------------------------------------------------
-// QuickSDL
-//---------------------------------------------------------------
+
 namespace QuickSDL {
 
 	AnimatedTexture::AnimatedTexture(std::string filename, int x, int y, int w, int h, int frameCount, float animationSpeed, ANIM_DIR animationDir)

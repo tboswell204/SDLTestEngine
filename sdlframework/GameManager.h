@@ -4,23 +4,21 @@
 // Used to intialize and release all other manager                     //
 // Contains the game loop as well as the Update and Render functions   //
 // Used to make sure all functions are called in the correct order     //
-//                                                                     //
-// By: Ather Omar                                                      //
+//																	   //
+// By: Tommy Boswell												   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)		   //
 //---------------------------------------------------------------------//
+
+
 #ifndef _GAMEMANAGER_H
 #define _GAMEMANAGER_H
-//----------------------------------------------------------------
 #include "InputManager.h"
 #include "AudioManager.h"
 #include "Timer.h"
 #include "Texture.h"
-//----------------------------------------------------------------
-// QuickSDL
-//----------------------------------------------------------------
+
 namespace QuickSDL {
-	//----------------------------------------------------------------
-	// GameManager                                                          
-	//----------------------------------------------------------------
+
 	class GameManager {
 
 	private:
@@ -28,7 +26,7 @@ namespace QuickSDL {
 		static GameManager* sInstance;
 
 		//The target frame rate of the game
-		const int FRAME_RATE = 120;
+		const int FRAME_RATE = 60;
 
 		//Used to exit the game loop
 		bool mQuit;

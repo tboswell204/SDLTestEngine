@@ -3,14 +3,12 @@
 // Handles all Input related functionality for keyboard and mouse.     //
 //(To be expanded later to handle touch and contoller input)           //
 //                                                                     //
-// By: Ather Omar                                                      //
+// By: Tommy Boswell												   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)		   //
 //---------------------------------------------------------------------//
 #include <string.h>
-//---------------------------------------------------------------
 #include "InputManager.h"
-//---------------------------------------------------------------
-// QuickSDL
-//---------------------------------------------------------------
+
 namespace QuickSDL {
 	//Initializing to NULL
 	InputManager* InputManager::sInstance = NULL;

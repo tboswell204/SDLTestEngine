@@ -4,21 +4,16 @@
 // Handles all Input related functionality for keyboard and mouse.     //
 //(To be expanded later to handle touch and contoller input)           //
 //                                                                     //
-// By: Ather Omar                                                      //
+// By: Tommy Boswell												   //
+// (Credit and big thanks to Ather Omar for his SDL tutorial)		   //
 //---------------------------------------------------------------------//
 #ifndef _INPUTMANAGER_H
 #define _INPUTMANAGER_H
-//---------------------------------------------------------------------
 #include <SDL.h>
-//---------------------------------------------------------------------
 #include "MathHelper.h"
-//---------------------------------------------------------------------
-// QuickSDL
-//---------------------------------------------------------------------
+
 namespace QuickSDL {
-	//-----------------------------------------------------------------
-	// InputManager
-	//-----------------------------------------------------------------
+
 	class InputManager {
 
 	public:

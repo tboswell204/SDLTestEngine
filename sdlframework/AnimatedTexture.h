@@ -1,22 +1,18 @@
-//-----------------------------------------------------------------//
-// AnimatedTexture.h                                               //
-// Extends the Texture class' functionality to handle animations   //
-// Uses the Texture class' spritesheet constructor                 //
-//                                                                 //
-// By: Ather Omar                                                  //
-//-----------------------------------------------------------------//
+//------------------------------------------------------------------//
+// AnimatedTexture.h												//
+// Extends the Texture class' functionality to handle animations	//
+// Uses the Texture class' spritesheet constructor					//
+//																	//
+// By: Tommy Boswell												//
+// (Credit and big thanks to Ather Omar for his SDL tutorial)		//
+//------------------------------------------------------------------//
 #ifndef _ANIMATEDTEXTURE_H
 #define _ANIMATEDTEXTURE_H
-//--------------------------------------------------------------
 #include "Timer.h"
 #include "Texture.h"
-//--------------------------------------------------------------
-// QuickSDL
-//--------------------------------------------------------------
+
 namespace QuickSDL {
-	//----------------------------------------------------------
-	// AnimatedTexture : public Texture
-	//----------------------------------------------------------
+
 	class AnimatedTexture : public Texture {
 
 	public:
